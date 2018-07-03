@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A227F6420E5B61A00AD4E11 /* PictureDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A227F6320E5B61A00AD4E11 /* PictureDetectionViewController.swift */; };
 		7A446AE920E09F1C0073B741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A446AE820E09F1C0073B741 /* AppDelegate.swift */; };
 		7A446AEB20E09F1C0073B741 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A446AEA20E09F1C0073B741 /* Scene.sks */; };
 		7A446AED20E09F1C0073B741 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A446AEC20E09F1C0073B741 /* Scene.swift */; };
@@ -14,9 +15,15 @@
 		7A446AF220E09F1C0073B741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A446AF020E09F1C0073B741 /* Main.storyboard */; };
 		7A446AF420E09F220073B741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A446AF320E09F220073B741 /* Assets.xcassets */; };
 		7A446AF720E09F220073B741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A446AF520E09F220073B741 /* LaunchScreen.storyboard */; };
+		7A89CE2120E0A18A007A64A6 /* ARBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A89CE2020E0A18A007A64A6 /* ARBridge.swift */; };
+		7A89CE2720E0ADC3007A64A6 /* CoinRecognizer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7A89CE2620E0ADC2007A64A6 /* CoinRecognizer.mlmodel */; };
+		7A89CE2920E0BF8D007A64A6 /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A89CE2820E0BF8D007A64A6 /* Prediction.swift */; };
+		7A89CE2B20E0C09C007A64A6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A89CE2A20E0C09C007A64A6 /* Utils.swift */; };
+		7AC8DC9920EB2013001914AC /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8DC9820EB2013001914AC /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A227F6320E5B61A00AD4E11 /* PictureDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetectionViewController.swift; sourceTree = "<group>"; };
 		7A446AE520E09F1C0073B741 /* Monedas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monedas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A446AE820E09F1C0073B741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A446AEA20E09F1C0073B741 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
@@ -26,6 +33,11 @@
 		7A446AF320E09F220073B741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A446AF620E09F220073B741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A446AF820E09F220073B741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A89CE2020E0A18A007A64A6 /* ARBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBridge.swift; sourceTree = "<group>"; };
+		7A89CE2620E0ADC2007A64A6 /* CoinRecognizer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CoinRecognizer.mlmodel; sourceTree = "<group>"; };
+		7A89CE2820E0BF8D007A64A6 /* Prediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = "<group>"; };
+		7A89CE2A20E0C09C007A64A6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		7AC8DC9820EB2013001914AC /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +73,17 @@
 				7A446AE820E09F1C0073B741 /* AppDelegate.swift */,
 				7A446AEA20E09F1C0073B741 /* Scene.sks */,
 				7A446AEC20E09F1C0073B741 /* Scene.swift */,
+				7A89CE2620E0ADC2007A64A6 /* CoinRecognizer.mlmodel */,
 				7A446AEE20E09F1C0073B741 /* ViewController.swift */,
 				7A446AF020E09F1C0073B741 /* Main.storyboard */,
 				7A446AF320E09F220073B741 /* Assets.xcassets */,
 				7A446AF520E09F220073B741 /* LaunchScreen.storyboard */,
 				7A446AF820E09F220073B741 /* Info.plist */,
+				7A89CE2020E0A18A007A64A6 /* ARBridge.swift */,
+				7A89CE2820E0BF8D007A64A6 /* Prediction.swift */,
+				7A89CE2A20E0C09C007A64A6 /* Utils.swift */,
+				7A227F6320E5B61A00AD4E11 /* PictureDetectionViewController.swift */,
+				7AC8DC9820EB2013001914AC /* UIImageExtension.swift */,
 			);
 			path = Monedas;
 			sourceTree = "<group>";
@@ -143,8 +161,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A446AEF20E09F1C0073B741 /* ViewController.swift in Sources */,
+				7A89CE2120E0A18A007A64A6 /* ARBridge.swift in Sources */,
+				7AC8DC9920EB2013001914AC /* UIImageExtension.swift in Sources */,
 				7A446AED20E09F1C0073B741 /* Scene.swift in Sources */,
+				7A89CE2920E0BF8D007A64A6 /* Prediction.swift in Sources */,
 				7A446AE920E09F1C0073B741 /* AppDelegate.swift in Sources */,
+				7A89CE2720E0ADC3007A64A6 /* CoinRecognizer.mlmodel in Sources */,
+				7A227F6420E5B61A00AD4E11 /* PictureDetectionViewController.swift in Sources */,
+				7A89CE2B20E0C09C007A64A6 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 472V58MGMP;
 				INFOPLIST_FILE = Monedas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 472V58MGMP;
 				INFOPLIST_FILE = Monedas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
